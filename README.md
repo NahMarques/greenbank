@@ -1,27 +1,34 @@
-# Greenbank
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
+# 🌱 GreenBank - Plataforma de Investimentos Sustentáveis
 
-## Development server
+![Angular](https://img.shields.io/badge/Angular-21-DD0031?logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.4-3178C6?logo=typescript&logoColor=white)
+![SCSS](https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 📋 Sobre o Projeto
 
-## Code scaffolding
+O **GreenBank** é uma plataforma web moderna desenvolvida para conectar investidores a projetos sustentáveis. O projeto demonstra minhas habilidades com **Angular 21**, **TypeScript**, **componentização**, **roteamento** e **integração com Material Design**.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### 🎯 Objetivo do Portfólio
 
-## Build
+Este projeto foi desenvolvido para demonstrar:
+- ✅ Desenvolvimento com Angular Standalone Components
+- ✅ Gerenciamento de estado e rotas
+- ✅ Design responsivo com SCSS
+- ✅ Integração com Angular Material
+- ✅ Código limpo e organizado
+- ✅ Controle de versão com Git
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🚀 Tecnologias Utilizadas
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+| Tecnologia | Versão | Finalidade |
+|------------|--------|-------------|
+| Angular | 21 | Framework principal |
+| TypeScript | 5.4 | Tipagem estática |
+| SCSS | - | Estilização avançada |
+| Angular Material | 21 | Componentes UI |
+| GSAP | - | Animações |
+| Git | - | Controle de versão |
