@@ -1,1 +1,148 @@
-/* You can add global styles to this file, and also import other style files */
+
+// 1. VARIÁVEIS GLOBAIS
+
+:root {
+  /* Cores */
+  --color-primary: #2bb32a;
+  --color-primary-hover: #27ae60;
+  --color-bg: #1a1e1c;
+  --color-text: #ffffff;
+  --color-paragraph: #777777;
+}
+
+// 2. RESET E BASE
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color-scheme: light;
+  background-color: var(--mat-sys-surface);
+  color: var(--mat-sys-on-surface);
+  font: var(--mat-sys-body-medium);
+
+  font-family: 'Poppins', sans-serif;
+  color: var(--color-text);
+
+  /* centralização e espaçamento */
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+
+  // background
+
+  background-color: var(--color-bg);
+  background-image: url('assets/img/bg.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+// 3. LAYOUT PRINCIPAL
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0px clamp(16px, 4vw, 80px) 0;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+// 4. TIPOGRAFIA
+
+h1 {
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -1.4px;
+}
+
+h2 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+p {
+  color: var(--color-paragraph) !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+// 5. COMPONENTES
+
+// Footer
+footer {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  background-color: #1a4d2a;
+  padding: 40px 0;
+}
+
+// Botão CTA
+.button_cta {
+  all: unset;
+  outline: none;
+  text-decoration: none;
+
+  // Layout
+  display: flex;
+  padding: 16px 32px;
+  align-items: center;
+  gap: 16px;
+
+  // Tipografia
+  border-radius: 64px;
+  font-weight: 500;
+  background: #2bb32a;
+
+  
+  transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+  &:hover {
+    background: rgba(61, 84, 77, 0.80);
+    transform: scale(1.01); 
+    box-shadow: 0 4px 12px rgba(43, 179, 42, 0.12);
+  }
+
+  &:active {
+    transform: scale(0.99); 
+    background: #1e8e1d;
+    box-shadow: 0 2px 6px rgba(43, 179, 42, 0.08);
+    transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+}
+
+// Botão de contato do navbar
+.navbar .contact-button {
+  all: unset;
+  outline: none;
+}
+
+
