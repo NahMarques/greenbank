@@ -1,5 +1,7 @@
+<img width="1421" height="835" alt="Captura de Tela 2026-04-23 às 16 29 08" src="https://github.com/user-attachments/assets/1504fd92-0cea-4c72-b7ba-13ff8f0bef7e" />
 
-# 🌱 GreenBank - Plataforma de Investimentos Sustentáveis
+
+# 🌱 GreenBank 
 
 ![Angular](https://img.shields.io/badge/Angular-21-DD0031?logo=angular&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.4-3178C6?logo=typescript&logoColor=white)
