@@ -1,14 +1,14 @@
+
 {
   "version": 2,
   "installCommand": "npm install --legacy-peer-deps",
-  "buildCommand": "ng build --configuration=production",
-  "outputDirectory": "dist/greenbank/browser",
-  "devCommand": "ng serve",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/greenbank",
   "framework": "angular",
-  "routes": [
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
