@@ -1,9 +1,14 @@
-# 🌱 GreenBank - Plataforma de Investimentos Sustentáveis
+<img width="1421" height="835" alt="Captura de Tela 2026-04-23 às 16 29 08" src="https://github.com/user-attachments/assets/1504fd92-0cea-4c72-b7ba-13ff8f0bef7e" />
 
-![Angular](https://img.shields.io/badge/Angular-21-red?logo=angular)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.4-blue?logo=typescript)
-![SCSS](https://img.shields.io/badge/SCSS- styles-ff69b4?logo=sass)
-![Git](https://img.shields.io/badge/Git-Versionamento-orange?logo=git)
+
+# 🌱 GreenBank 
+
+![Angular](https://img.shields.io/badge/Angular-21-DD0031?logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.4-3178C6?logo=typescript&logoColor=white)
+![SCSS](https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
 
 ## 📋 Sobre o Projeto
 
