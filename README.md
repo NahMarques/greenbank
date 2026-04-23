@@ -29,5 +29,3 @@ Este projeto foi desenvolvido para demonstrar:
 | Angular Material | 21 | Componentes UI |
 | GSAP | - | Animações |
 | Git | - | Controle de versão |
-
-## 📁 Estrutura do Projeto
