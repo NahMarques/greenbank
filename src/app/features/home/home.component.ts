@@ -6,6 +6,7 @@ import { FaqComponent } from '../../components/faq/faq.component';
 
 @Component({
   selector: 'gb-home',
+  standalone: true,
   imports: [CommonModule, FaqComponent],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
