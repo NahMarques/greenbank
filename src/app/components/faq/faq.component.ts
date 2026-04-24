@@ -1,12 +1,12 @@
 
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CdkAccordionModule } from '@angular/cdk/accordion';
+// import { CdkAccordionModule } from '@angular/cdk/accordion';
 
 @Component({
   selector: 'faq-component',
   standalone: true,
-  imports: [CommonModule, CdkAccordionModule],
+  imports: [CommonModule,],
   templateUrl: './faq.component.html',
   styleUrl: './faq.component.scss',
 })
