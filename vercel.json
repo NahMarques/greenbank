@@ -1,7 +1,6 @@
-
 {
   "version": 2,
-  "installCommand": "npm install --legacy-peer-deps",
+  "installCommand": "npm cache clean --force && npm install --legacy-peer-deps",
   "buildCommand": "npm run build",
   "outputDirectory": "dist/greenbank",
   "framework": "angular",
@@ -12,3 +11,4 @@
     }
   ]
 }
+
