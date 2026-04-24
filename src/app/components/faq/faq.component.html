@@ -1,45 +1,17 @@
-<!-- <section class="faq-content">
-  <h2>FAQs</h2>
-
-  <cdk-accordion>
-    @for (item of faqItems; track $index; let i = $index) {
-      <!-- Adicione [expanded]="item.expanded" 
-      <cdk-accordion-item #accordionItem="cdkAccordionItem" [expanded]="item.expanded">
-        <div class="faq-item">
-          <div class="faq-question" (click)="accordionItem.toggle()">
-            <h4>{{ item.question }}</h4>
-            <span class="icon" [class.expanded]="accordionItem.expanded">
-              {{ accordionItem.expanded ? '−' : '+' }}
-            </span>
-          </div>
-          <div class="faq-answer" [style.display]="accordionItem.expanded ? 'block' : 'none'">
-            <p>{{ item.answer }}</p>
-          </div>
-        </div>
-      </cdk-accordion-item>
-    }
-  </cdk-accordion>
-</section> -->
-
-
 <section class="faq-content">
   <h2>FAQs</h2>
 
-  <cdk-accordion>
-    <ng-container *ngFor="let item of faqItems; let i = index">
-      <cdk-accordion-item #accordionItem="cdkAccordionItem" [expanded]="item.expanded">
-        <div class="faq-item">
-          <div class="faq-question" (click)="accordionItem.toggle()">
-            <h4>{{ item.question }}</h4>
-            <span class="icon" [class.expanded]="accordionItem.expanded">
-              {{ accordionItem.expanded ? '−' : '+' }}
-            </span>
-          </div>
-          <div class="faq-answer" [style.display]="accordionItem.expanded ? 'block' : 'none'">
-            <p>{{ item.answer }}</p>
-          </div>
-        </div>
-      </cdk-accordion-item>
-    </ng-container>
-  </cdk-accordion>
-</section> 
+  <div class="faq-list">
+    <div class="faq-item" *ngFor="let item of faqItems; let i = index">
+      <div class="faq-question" (click)="toggleAccordion(i)">
+        <h4>{{ item.question }}</h4>
+        <span class="icon" [class.expanded]="item.expanded">
+          {{ item.expanded ? '−' : '+' }}
+        </span>
+      </div>
+      <div class="faq-answer" *ngIf="item.expanded">
+        <p>{{ item.answer }}</p>
+      </div>
+    </div>
+  </div>
+</section>
